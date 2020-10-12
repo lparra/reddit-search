@@ -1,7 +1,7 @@
 {
   "name": "reddit-search",
   "version": "1.0.0",
-  "description": "🔎 A simple reddit search web app using vanilla javascript",
+  "description": "🔎 A simple reddit search web app using vanilla JavaScript",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html"

@@ -17,7 +17,7 @@
 * [License](#license)
 
 ## About The Project
-🔎 A simple reddit search web app using vanilla javascript
+🔎 A simple reddit search web app using vanilla JavaScript
 
 
 ### Built With
