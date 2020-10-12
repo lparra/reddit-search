@@ -1,0 +1,214 @@
+body {
+    color: unset;
+    background-color: #f1f1f1;
+    font-family: unset;
+    font-weight: unset;
+    margin: 250px auto 0;
+    max-width: 700px;
+    line-height: unset;
+    padding: 1rem;
+
+}
+
+@-webkit-keyframes slide-out-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-out-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+.slide-out-top {
+    -webkit-animation: slide-out-top 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-top 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #003366;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+header h2 {
+    color: #666;
+    font-size: 1rem;
+}
+
+@-webkit-keyframes slide-out {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(-400px);
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(-400px);
+    }
+}
+
+.slide-out {
+    -webkit-animation: slide-out 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+main .alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid transparent;
+    border-color: #f5c6cb;
+    border-radius: .25rem;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#initiation #search-form .form-group {
+    border: 1px solid #003366;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin-top: 30px;
+}
+
+#initiation #search-form .form-group input {
+    border: none;
+    border-radius: 5px;
+    flex-grow: 2;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 5px;
+    width: 300px;
+}
+
+#initiation #search-form .form-group button {
+    color: white;
+    background-color: #003366;
+    border: 1px solid transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#conclusion .timeline {
+    line-height: 1.4em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#conclusion .timeline .timeline-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#conclusion .timeline .timeline-item .timeline-date {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 .5em 0;
+    text-transform: uppercase;
+}
+
+#conclusion .timeline .timeline-item .timeline-content {
+    padding-bottom: 40px;
+}
+
+#conclusion .timeline .timeline-item .timeline-content h3 {
+    line-height: inherit;
+}
+
+#conclusion .timeline .timeline-item .timeline-content p {
+    margin: 0 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#conclusion .timeline .timeline-item .timeline-content p:last-child {
+    margin-bottom: 0;
+}
+
+#conclusion .timeline .timeline-item .timeline-content a {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+@media (min-width: 667px) {
+
+    body {
+        padding: unset;
+    }
+
+    @-webkit-keyframes slide-out {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        100% {
+            -webkit-transform: translateY(10px);
+            transform: translateY(-350px);
+        }
+    }
+
+    @keyframes slide-out {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        100% {
+            -webkit-transform: translateY(10px);
+            transform: translateY(-350px);
+        }
+    }
+
+    #initiation #search-form .form-group input {
+        width: 480px;
+    }
+}

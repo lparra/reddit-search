@@ -1,0 +1,15 @@
+{
+  "name": "reddit-search",
+  "version": "1.0.0",
+  "description": "🔎 A simple reddit search web app using vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "luis parra",
+  "license": "MIT",
+  "homepage": "https://github.com/lparra/search#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
