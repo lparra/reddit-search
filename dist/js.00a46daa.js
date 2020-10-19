@@ -145,6 +145,7 @@ var _API = _interopRequireDefault(require("../js/API"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var header = document.getElementsByTagName('header')[0];
 var main = document.getElementsByTagName('main')[0];
 var section = document.getElementsByTagName('section')[0];
 var form = document.getElementById('form');
@@ -155,7 +156,7 @@ var article = document.getElementsByTagName('article')[0];
 function getResultsFromAPI(e) {
   e.preventDefault();
   var term = search.value;
-  term == '' ? showMessage('Please add a search term', 'alert') : document.getElementsByTagName('header')[0].setAttribute('class', 'slide-out-top') || document.getElementsByTagName('main')[0].setAttribute('class', 'slide-out');
+  term == '' ? showMessage('Please add a search term', 'alert') : header.setAttribute('class', 'slide-out-top') || main.setAttribute('class', 'slide-out');
 
   _API.default.search(term).then(function (results) {
     var gallery = '<ul class="timeline">';
@@ -206,7 +207,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46569" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45717" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

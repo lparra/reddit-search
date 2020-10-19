@@ -1,5 +1,6 @@
 import API from '../js/API';
 
+const header = document.getElementsByTagName('header')[0];
 const main = document.getElementsByTagName('main')[0];
 const section = document.getElementsByTagName('section')[0];
 const form = document.getElementById('form');
@@ -14,8 +15,8 @@ function getResultsFromAPI(e) {
 
     term == '' ?
         showMessage('Please add a search term', 'alert') :
-        document.getElementsByTagName('header')[0].setAttribute('class', 'slide-out-top') ||
-        document.getElementsByTagName('main')[0].setAttribute('class', 'slide-out');
+        header.setAttribute('class', 'slide-out-top') ||
+        main.setAttribute('class', 'slide-out');
 
     API.search(term)
         .then(results => {
