@@ -155,7 +155,7 @@ function getResultsFromAPI(e) {
   term == '' ? showMessage('Please add a search term', 'alert') : document.getElementsByTagName('header')[0].setAttribute('class', 'slide-out-top') || document.getElementsByTagName('main')[0].setAttribute('class', 'slide-out');
 
   _API.default.search(term).then(function (results) {
-    console.log(results);
+    // console.log(results);
     var gallery = '<ul class="timeline">';
     results.forEach(function (result) {
       var date = "".concat(new Date(result.created * 1000).toUTCString());

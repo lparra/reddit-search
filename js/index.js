@@ -16,7 +16,7 @@ function getResultsFromAPI(e) {
 
     API.search(term)
         .then(results => {
-            console.log(results);
+            // console.log(results);
             let gallery = '<ul class="timeline">';
             results.forEach(result => {
                 let date = `${new Date(result.created * 1000).toUTCString()}`;
