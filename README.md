@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://github.com/lparra/reddit-search">
+  <a href="https://github.com/lsprr/reddit-search">
     <img src="./demo/search.png">
   </a>
-    <a href="https://github.com/lparra/reddit-search">
+    <a href="https://github.com/lsprr/reddit-search">
     <img src="./demo/search-results.png">
   </a>
   <h1 align="center">Reddit Search</h1>

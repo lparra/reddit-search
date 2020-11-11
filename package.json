@@ -8,7 +8,7 @@
   },
   "author": "luis parra",
   "license": "MIT",
-  "homepage": "https://github.com/lparra/search#readme",
+  "homepage": "https://github.com/lsprr/search#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.4"
   }
