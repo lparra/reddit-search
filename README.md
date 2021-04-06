@@ -12,6 +12,7 @@
 
 * [About The Project](#about-the-project)
   * [Built With](#built-with)
+* [Demo](#demo)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [License](#license)
@@ -25,6 +26,9 @@
 * JavaScript ES6
 * Fetch API
 * CSS
+
+### Demo
+![Demo](demo/reddit-search.gif)
 
 ## Getting Started
 
